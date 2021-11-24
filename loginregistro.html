@@ -24,7 +24,7 @@ if(isset($_POST["btnregistrar"])){
             $resultado=mysqli_query($conexion,$consul);
 
             if($resultado){
-                echo "<script>alert(Usuario registrado con éxito)</script>";
+                echo "<script>alert("Usuario registrado con éxito")</script>";
                 $username="";
                 $email="";
                 $_POST["password"]="";
